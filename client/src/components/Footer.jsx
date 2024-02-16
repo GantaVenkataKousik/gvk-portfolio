@@ -6,7 +6,10 @@ import React, { useEffect, useState } from 'react';
 export default function Footer() {
 
     const [email, setEmail] = useState("");
-
+      useEffect(() => {
+        const storedEmail = localStorage.getItem('email');
+        if (storedEmail) setEmail(storedEmail);
+      }, []);
     const handleEmailChange = (e) => {
         setEmail(e.target.value);
     };
