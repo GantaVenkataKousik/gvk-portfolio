@@ -41,7 +41,7 @@ const RateP = ({ onClose }) => {
     })
   }
 
-  useEffect(() => {}, [email, rating])
+  useEffect(() => { }, [email, rating])
   const handleSubmit = async e => {
     e.preventDefault()
 
@@ -49,7 +49,7 @@ const RateP = ({ onClose }) => {
       toastError('Enter valid email and rating!!!')
     } else {
       try {
-        const response = await fetch('http://localhost:9002/rating', {
+        const response = await fetch('gvk-portfolio-api.vercel.app/rating', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
@@ -64,24 +64,24 @@ const RateP = ({ onClose }) => {
             let feedbackMessage = "";
 
             switch (rating) {
-                case 1:
-                    feedbackMessage = "Oh no! 😞 Your feedback is crucial, and I appreciate your honesty. Let me know how I can improve.";
-                    break;
-                case 2:
-                    feedbackMessage = "Thank you for your feedback. I see there's room for improvement. Your insights are valuable!";
-                    break;
-                case 3:
-                    feedbackMessage = "Appreciate your feedback! It helps me understand what's working and what I can enhance.";
-                    break;
-                case 4:
-                    feedbackMessage = "Fantastic! 🌟 Your positive feedback inspires me to keep delivering quality work.";
-                    break;
-                case 5:
-                    feedbackMessage = "Wow! 🎉 Your rating of 5 has lit up my day, and your support means the world. Thank you!";
-                    break;
-                default:
-                    feedbackMessage = "Your support means the world.🌍";
-                    break;
+              case 1:
+                feedbackMessage = "Oh no! 😞 Your feedback is crucial, and I appreciate your honesty. Let me know how I can improve.";
+                break;
+              case 2:
+                feedbackMessage = "Thank you for your feedback. I see there's room for improvement. Your insights are valuable!";
+                break;
+              case 3:
+                feedbackMessage = "Appreciate your feedback! It helps me understand what's working and what I can enhance.";
+                break;
+              case 4:
+                feedbackMessage = "Fantastic! 🌟 Your positive feedback inspires me to keep delivering quality work.";
+                break;
+              case 5:
+                feedbackMessage = "Wow! 🎉 Your rating of 5 has lit up my day, and your support means the world. Thank you!";
+                break;
+              default:
+                feedbackMessage = "Your support means the world.🌍";
+                break;
             }
 
             const message = `
@@ -142,7 +142,7 @@ Follow me on *my social media* for the latest updates:
         } else {
           toastError('Unexpected Error Occured!!')
         }
-      } catch (error) {}
+      } catch (error) { }
 
       onClose()
     }

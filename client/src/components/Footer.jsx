@@ -8,25 +8,25 @@ export default function Footer() {
     const [email, setEmail] = useState("");
 
     const handleEmailChange = (e) => {
-      setEmail(e.target.value);
+        setEmail(e.target.value);
     };
- 
-    const handleSubmit = async (e) => {
-      e.preventDefault();
-  
-      try {
-        const response = await fetch('http://localhost:9002/subscription', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({  email }),
-        });
-        console.log(response);
 
-      } catch (error) {
-        console.error('Error submitting form:', error);
-      }
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        try {
+            const response = await fetch('gvk-portfolio-api.vercel.app/subscription', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email }),
+            });
+            console.log(response);
+
+        } catch (error) {
+            console.error('Error submitting form:', error);
+        }
     };
 
     return (

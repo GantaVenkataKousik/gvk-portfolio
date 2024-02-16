@@ -3,7 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
-  
+
   const toastSuccess = () => {
     toast.success('You are successfully logged In!', {
       position: "top-right",
@@ -49,7 +49,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:9002/feedback', {
+      const response = await fetch('gvk-portfolio-api.vercel.app/feedback', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -57,10 +57,10 @@ const Contact = () => {
         body: JSON.stringify({ name, email, message }),
       });
 
-      if(response.ok){
+      if (response.ok) {
         toastSuccess();
       }
-      else{
+      else {
         toastError();
       }
     } catch (error) {
@@ -110,7 +110,7 @@ const Contact = () => {
               <label htmlFor="email" className="contact__label">
                 Email
               </label>
-              <input name="email"  onChange={handleEmailChange} id="email" type="email" className="contact__input" />
+              <input name="email" onChange={handleEmailChange} id="email" type="email" className="contact__input" />
             </div>
           </div>
           <div className="contact__content">
