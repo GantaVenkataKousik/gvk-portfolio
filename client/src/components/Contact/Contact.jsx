@@ -49,7 +49,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://gvk-portfolio-api.vercel.app/feedback', {
+      const response = await fetch('https://gvk-portfolio-api1.onrender.com/feedback', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
