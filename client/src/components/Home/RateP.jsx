@@ -16,8 +16,8 @@ const RateP = ({ onClose }) => {
     setRating(starRating)
   }
 
-  const toastSuccess = () => {
-    toast.success('Rating submitted Succesfully!!', {
+  const toastSuccess = (data) => {
+    toast.success(data, {
       position: 'top-right',
       autoClose: 10000,
       hideProgressBar: false,
@@ -28,7 +28,7 @@ const RateP = ({ onClose }) => {
       theme: 'colored'
     })
   }
-  const toastError = data => {
+  const toastError = (data) => {
     toast.error(data, {
       position: 'top-right',
       autoClose: 10000,
@@ -56,9 +56,9 @@ const RateP = ({ onClose }) => {
           },
           body: JSON.stringify({ email, rating })
         })
-
+        console.log(response);
         if (response.ok) {
-          toastSuccess()
+          toastSuccess('Your Rating submitted Succesfully!!');
           const handleWhatsAppShare = async () => {
 
             let feedbackMessage = "";
