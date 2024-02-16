@@ -21,7 +21,7 @@ const app = express();
 // Enables Cross-Origin Resource Sharing for your server.
 app.use(cors(
     {
-        origin: ["https://deploy-mern-1whq.vercel.app"],
+        origin: [],
         methods: ["GET", "POST"],
         credentials: true
     }
@@ -44,6 +44,6 @@ app.use("/",portfolioRoute);
 
 // app.use("/admin",routes);
 
-app.listen(10000, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Server running on ${process.env.MODE} Mode on the Port ${process.env.PORT}`.bgBlue);
 })
