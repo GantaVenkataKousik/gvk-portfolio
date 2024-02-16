@@ -32,8 +32,8 @@ app.use(express.json());
 app.use(morgan('dev'));
 app.use(express.urlencoded({extended: true}));
 
-app.get('/',(req,res)=>{
-    res.render("Hello");
+app.get('/hello',(req,res)=>{
+    res.json("HELLO");
 });
 
 //database Config
