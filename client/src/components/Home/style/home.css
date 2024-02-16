@@ -1,0 +1,11 @@
+.scroll-rate{
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    gap: 3rem;
+    margin-top: -5rem;
+}
+
+.home__img{
+    margin-right: -10rem;
+}

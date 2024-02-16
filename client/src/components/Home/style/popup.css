@@ -1,0 +1,87 @@
+
+.rate_popup input{
+    width: 30vw;
+    border-radius:5px;
+    padding: 0.28rem;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    outline:none;
+    border: none;
+    border: none;
+}
+
+
+.rate_popup_stars{
+    width: 40vw;
+    margin: 0 auto;
+}
+
+
+
+.rate_popup_content{
+    margin-top: 1.5rem;
+}
+
+.rate-popup {
+    border-radius: 10px;
+    background: #5779d7;
+    padding: 1.6rem;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.9);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    z-index: 1000;
+    text-align: center;
+  }
+  
+  .rate-popup-content {
+    position: relative;
+  }
+  
+  .rate-popup-close {
+    position: absolute;
+    top: -1.4rem;
+    right:-1.1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+}
+  
+  .fa-star{
+    color: #fff;
+    font-size: 1.3rem;
+  }
+  .rate-popup input{
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    padding: 0.3em;
+    border-radius: 5px;
+  }
+
+  .rate-popup button{
+    border-radius: 10px;
+    background: #fff;
+    padding: 0.4rem;
+    color: #5779d7;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.9);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+
+
+  .rate-popup .submit,.rate-popup input,.rate-popup .stars{
+    display: block;
+  }
+
+  .rate-popup h3{
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+  }
