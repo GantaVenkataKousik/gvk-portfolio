@@ -21,7 +21,7 @@ const app = express();
 // Enables Cross-Origin Resource Sharing for your server.
 app.use(cors(
     {
-        origin: ["https://gvk-portfolio-api.vercel.app"],
+        origin: ["https://gvk-portfolio-interface.vercel.app/"],
         methods: ["GET", "POST"],
         credentials: true
     }
