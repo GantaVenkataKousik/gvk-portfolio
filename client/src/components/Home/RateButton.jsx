@@ -28,7 +28,7 @@ const RateButton = () => {
         <span className="home__scroll-name" style={styling}>
           Rate this{' '}
         </span>
-        <i className="fa-regular fa-star"  style={{ color: '#5779d7' }}></i>
+        <i className="fa-regular fa-star" style={{ color: '#5779d7' }}></i>
       </div>
 
       {showRatePopup && <RatePopup onClose={ratePopAfterClick} />}
