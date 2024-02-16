@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
 
   const toastSuccess = () => {
-    toast.success('You are successfully logged In!', {
+    toast.success('Thank you for your FeedBack!', {
       position: "top-right",
       autoClose: 5000,
       hideProgressBar: false,
@@ -17,7 +17,7 @@ const Contact = () => {
     });
   };
   const toastError = () => {
-    toast.error('Something error Occured', {
+    toast.error('Unknown Network Error', {
       position: "top-right",
       autoClose: 5000,
       hideProgressBar: false,
