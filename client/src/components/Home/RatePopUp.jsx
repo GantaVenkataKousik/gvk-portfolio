@@ -36,7 +36,7 @@ const RatePopup = () => {
     const handleClick = async (starRating) => {
         try {
             console.log(starRating, emailEntered);
-            const response = await fetch('http://localhost:9002/rating', {
+            const response = await fetch('https://gvk-portfolio-api.vercel.app/rating', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

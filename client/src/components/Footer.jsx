@@ -15,7 +15,7 @@ export default function Footer() {
         e.preventDefault();
 
         try {
-            const response = await fetch('gvk-portfolio-api.vercel.app/subscription', {
+            const response = await fetch('https://gvk-portfolio-api.vercel.app/subscription', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
