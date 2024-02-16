@@ -33,16 +33,32 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
+ useEffect(() => {
+    const storedName = localStorage.getItem('name');
+    const storedEmail = localStorage.getItem('email');
+    const storedMessage = localStorage.getItem('message');
+
+    if (storedName) setName(storedName);
+    if (storedEmail) setEmail(storedEmail);
+    if (storedMessage) setMessage(storedMessage);
+  }, []);
+
   const handleNameChange = (e) => {
-    setName(e.target.value);
+    const newName = e.target.value;
+    setName(newName);
+    localStorage.setItem('name', newName);
   };
 
   const handleEmailChange = (e) => {
-    setEmail(e.target.value);
+    const newEmail = e.target.value;
+    setEmail(newEmail);
+    localStorage.setItem('email', newEmail);
   };
 
   const handleMessageChange = (e) => {
-    setMessage(e.target.value);
+    const newMessage = e.target.value;
+    setMessage(newMessage);
+    localStorage.setItem('message', newMessage);
   };
 
   const handleSubmit = async (e) => {
