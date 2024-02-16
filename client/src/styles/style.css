@@ -2095,3 +2095,8 @@ transform: rotateY( 180deg );
 .css-19n335a-ToastContainer {
   font-size: 1.5rem !important; 
 }
+
+.scroll-rate {
+  margin-top: 2rem;
+  color: white;
+}
