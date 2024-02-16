@@ -14,6 +14,31 @@ export default function Footer() {
         setEmail(e.target.value);
     };
 
+      const toastSuccess = () => {
+    toast.success('You are subscribed to GVK!', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    });
+  };
+  const toastError = () => {
+    toast.error('Unknown Network Error', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
+  }
+
     const handleSubmit = async (e) => {
         e.preventDefault();
 
@@ -25,7 +50,12 @@ export default function Footer() {
                 },
                 body: JSON.stringify({ email }),
             });
-            console.log(response);
+            if(response.ok){
+                toastSuccess();
+            }
+            else{
+                toastError();
+            }
 
         } catch (error) {
             console.error('Error submitting form:', error);
