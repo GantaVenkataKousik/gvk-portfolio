@@ -2,42 +2,42 @@
 // import React, { useState } from 'react';
 import ScrollUpButton from './Footer/ScrollUpButton';
 import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 export default function Footer() {
 
+    const toastSuccess = (message) => {
+        toast.success(message, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+        });
+    };
+
+    const toastError = (message) => {
+        toast.error(message, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+        });
+    }
+
     const [email, setEmail] = useState("");
-      useEffect(() => {
-        const storedEmail = localStorage.getItem('email');
-        if (storedEmail) setEmail(storedEmail);
-      }, []);
+
     const handleEmailChange = (e) => {
         setEmail(e.target.value);
     };
-
-      const toastSuccess = () => {
-    toast.success('You are subscribed to GVK!', {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "colored",
-    });
-  };
-  const toastError = () => {
-    toast.error('Unknown Network Error', {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-    });
-  }
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -50,15 +50,15 @@ export default function Footer() {
                 },
                 body: JSON.stringify({ email }),
             });
-            if(response.ok){
-                toastSuccess();
+            if (response.ok) {
+                toastSuccess('Thanks for Subscribing!');
             }
-            else{
-                toastError();
+            else {
+                toastError('Check your Network!!');
             }
 
         } catch (error) {
-            console.error('Error submitting form:', error);
+            toastError('Unknown Error Occurred!!');
         }
     };
 
