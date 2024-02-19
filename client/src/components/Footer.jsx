@@ -41,14 +41,14 @@ export default function Footer() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
+        console.log(email);
         try {
             const response = await fetch('https://gvk-portfolio-api1.onrender.com/subscription', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ email }),
+                body: JSON.stringify({ email })
             });
             if (response.ok) {
                 toastSuccess('Thanks for Subscribing!');
