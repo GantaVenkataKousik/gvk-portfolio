@@ -9,7 +9,7 @@ export default function Animations() {
 
   return (
     <>
-      <div >
+      <div className='Animations'>
         <LightningAnimation />
         <BoxAnimation />
         <RhombusAnimation />

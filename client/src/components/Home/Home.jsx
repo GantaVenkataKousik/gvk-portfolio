@@ -90,9 +90,9 @@ const Home = () => {
 
 
           <div className="home__data">
-            <h1 className="home_title">Hi!<span className="wavefromof">👋</span>, I'm <span className="highlight main-name">GVK</span> </h1>
+            <h1 className="home_title">Hi!<span className="wavefromof">👋</span>, I'm an<span className="highlight main-name">GVK</span> </h1>
             <h3 className="home__subtitle">
-              I'm <span className="highlight" ref={dynamicTextRef}></span>
+              I'm <span className="highlight"> Aspiring MAANG ENGINEER</span>
             </h3>
             <p className="home__description">
               High-level knowledge in <span className="highlight">DSA and Full Stack</span>, producing <span className="highlight">quality work.</span>
