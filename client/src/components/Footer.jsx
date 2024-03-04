@@ -178,28 +178,6 @@ export default function Footer() {
                         <div className="footer_bg_two"></div>
                     </div>
                 </div>
-                <div className="footer_bottom">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6 col-sm-7">
-                                <p className="mb-0 f_400 copyright highlight">
-                                    GVK 2024 ©All rights reserved.
-                                </p>
-                            </div>
-                            <div className="col-lg-6 col-sm-5 text-right">
-                                <p className="highlight">
-                                    Made with <i className="fa-solid fa-heart"></i> by{' '}
-                                    <a
-                                        href="http://cakecounter.com"
-                                        target="_blank "
-                                    >
-                                        <span className="copyright"></span>GVK
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </footer>
             <ScrollUpButton />
         </>

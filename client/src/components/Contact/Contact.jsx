@@ -82,15 +82,18 @@ const handleMessageChange = (e) => {
           <div className="contact__information">
             <i className="uil uil-envelope contact__icon"></i>
             <div>
-              <h3 className="contact__title">Email</h3>
-              <span className="contact__subtitle">venkatakousikcse01@gmail.com</span>
+              <h3 className="contact__title">Linked In</h3>
+              <span className="contact__subtitle">
+              <a href="https://www.linkedin.com/in/venkatakousik/">venkatakousik</a> </span>
             </div>
           </div>
           <div className="contact__information">
             <i className="uil uil-github-alt contact__icon"></i>
             <div>
               <h3 className="contact__title">Github</h3>
-              <span className="contact__subtitle">https://github.com/GantaVenkataKousik </span>
+              
+              <span className="contact__subtitle">
+              <a href="https://github.com/GantaVenkataKousik">GantaVenkataKousik</a> </span>
             </div>
           </div>
         </div>
