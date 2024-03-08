@@ -320,34 +320,10 @@ img {
 }
 
 /*==================== LAYOUT ====================*/
-.container {
-  max-width: 768px;
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
-}
 
-.grid {
-  display: grid;
-  gap: 1.5rem;
-}
-
-.header {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: var(--z-fixed);
-  background-color: var(--body-color);
-}
 
 /*==================== NAV ====================*/
-.nav {
-  max-width: 1400px;
-  height: var(--header-height);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 .nav__logo,
 .nav__toggle {
@@ -374,24 +350,7 @@ img {
   color: var(--first-color);
 }
 
-@media screen and (max-width:767px) {
-  .nav__menu {
-    position: fixed;
-    bottom: -100%;
-    width: 100%;
-    background-color: var(--body-color);
-    padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
-    border-radius: 1.5rem 1.5rem 0 0;
-    transition: .3s;
-  }
-}
 
-
-.nav__list {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
 
 .nav__link {
   display: flex;
@@ -1764,4 +1723,204 @@ button:focus {
 .scroll-rate {
   margin-top: 2rem;
   color: white;
+}
+.home_title span{
+  display: block;
+}   
+
+.contact{
+  width: 100%;
+  word-wrap: break-word;
+}
+.contact__content{
+  width: 80%;
+}
+.contact__information{
+  width: 80%;
+  word-wrap: break-word;
+}
+.contact__subtitle{
+  display: none;
+}
+.main{
+  width: 100%;
+  text-align: center;
+}
+.button-section{
+  margin: 0 auto;
+  flex-direction: column;
+}
+.home_section{
+  display: flex;
+  justify-content: center;   
+}
+.home__container{
+  width: 100%;
+  margin: 0 ;
+  padding:0;
+
+}
+.button-section .button{
+  text-align: center;
+}
+.container-projects .tags{
+  display: none;
+}
+.scroll-rate{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.about{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about__container,.skills__container{
+  width: 100%;
+  margin: 0 auto;
+}
+.about__container img{
+  margin: 0 auto;
+}
+.skills img{
+  width: 6vw;
+  height: 4vh;
+}
+.skills__container{
+  padding: 0 10vw;
+}
+
+.section__title{
+  font-size: 2.1rem;
+}
+.contact__icon{
+  display: none;
+}
+.contact__subtitle{
+  display: block;
+}
+.contact{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.contact .container{
+  width: 100%;
+  margin: 0 auto;
+}
+.contact__information{
+  margin: 0;
+}
+.contact__container div,.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+.contact__subtitle{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color:#5779e0;
+}
+.contact__subtitle a{
+  color: #5779e0;
+}
+.footer-follow-icons{
+  display: flex;
+}
+.new_footer_top .f_social_icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.new_footer_top .f_social_icon a{
+  border: none;
+  font-size: 2rem;
+}
+.footer-container .highlight{
+  margin-top: 5vh;
+  font-size: 1.4rem;    
+}
+.f_widget{
+  margin-top: 5vh;
+}
+.new_footer_top button{
+  display: none;
+}
+.new_footer_top{
+  padding-top: 0rem;
+}
+body{
+  font-size: 1.2rem;
+}
+.home .button-section .button{
+  width: 50vw;
+  text-align: center;
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 4rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  z-index: 100000;
+  background: ;
+}
+
+.nav__list i{
+  display: none;  
+}
+.nav__list{
+  display: flex;
+}
+.nav {
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.nav__list li{
+  margin: 0 2rem;
+}
+.Toastify{
+  display: none;
+}
+.home__content{
+  display: flex;
+  flex-direction: row-reverse;
+margin-top: 15vh;
+}
+.home .button-section{
+  display: flex;
+  flex-direction: row;
+}
+.home .button-section .button{
+  width: 15vw;
+}
+.about img{
+  width: 45vw;
+  height: 40vh;
+}
+.skills img{
+  width: 2vw;
+  height: 3vh;
+}
+
+.contact form{
+  margin: 0 auto;
+}
+.contact form .contact__content{
+  margin-top: 0.6rem;
+}
+.skills__content {
+  width: 70%;
+}
+.skills__container div{
+  margin: 0.7rem auto;
 }

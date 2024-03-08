@@ -22,10 +22,9 @@ export default function Nav(){
         <NavItem to="contact" icon="uil-message" label="Contact me" />
 
       </ul>
-      <i className="uil uil-times nav__close" id="nav-close"></i>
     </div>
-
-        <NavButtons />
+    <NavButtons />
+        
       </nav>
     </header>
     <ProgressBar />
