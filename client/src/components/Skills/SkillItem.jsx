@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SkillItem = ({ name, imageName, percentage }) => {
-  const imagePath = `/portfolio-images/${imageName}.png`;
+  const imagePath = `/portfolio-images/${imageName}`;
 
   return (
     <div className="skills__data">

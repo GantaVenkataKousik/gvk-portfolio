@@ -4,9 +4,15 @@ import './skills.css';
 
 const Skills = () => {
   const [skillsState, setSkillsState] = useState([
-    { title: 'Frontend developer', isOpen: true },
-    { title: 'Backend developer', isOpen: false },
-    { title: 'Designer', isOpen: false },
+    { title: 'FullStack Developer', isOpen: false },
+    { title: 'App Developer', isOpen: false },
+    { title: 'UX/UI Designer', isOpen: false },
+    { title: 'DSA Specialist', isOpen: false },
+    { title: 'Frontend Developer', isOpen: false },
+    { title: 'Backend Developer', isOpen: false },
+    { title: 'ML Engineer', isOpen: false },
+    { title: 'DataScience Enthusiast', isOpen: false },
+
     // Add other skills here
   ]);
   const toggleSkills = (index) => {
@@ -43,31 +49,70 @@ const Skills = () => {
               </div>
 
               <div className="skills__list grid">
-                {/* Add SkillItems for each skill */}
+
                 {skill.isOpen && (
                   <>
-                    {skill.title === 'Frontend developer' && (
+                    {skill.title === 'FullStack Developer' && (
                       <>
-                        <SkillItem name="HTML" imageName="html" percentage={90} />
-                        <SkillItem name="CSS" imageName="css" percentage={77} />
-                        <SkillItem name="JavaScript" imageName="javascript" percentage={75} />
-                        <SkillItem name="React" imageName="react" percentage={70} />
+                        <SkillItem name="React" imageName="react.png" percentage={89} />
+                        <SkillItem name="Express" imageName="express.png" percentage={89} />
+                        <SkillItem name="Node Js" imageName="node.png" percentage={89} />
+                        <SkillItem name="MongoDB" imageName="mongodb.png" percentage={89} />
+
+                      </>
+                    )}
+
+                    {skill.title === 'App Developer' && (
+                      <>
+                        <SkillItem name="Flutter" imageName="flutter.png" percentage={89} />
                       </>
                     )}
 
 
-                    {skill.title === 'Designer' && (
+
+
+                    {skill.title === 'UX/UI Designer' && (
                       <>
-                        <SkillItem name="Figma" imageName="figma" percentage={60} />
-                        <SkillItem name="Blender" imageName="blender" percentage={52} />
+                        <SkillItem name="Figma" imageName="figma.png" percentage={96} />
+                        <SkillItem name="WixStudio" imageName="wix-studio.png" percentage={86} />
+                        <SkillItem name="Framer Motion" imageName="framer-motion.webp" percentage={68} />
+                        <SkillItem name="Blender" imageName="blender.png" percentage={52} />
+                      </>
+                    )}
+                    {skill.title === 'DSA Specialist' && (
+                      <>
+                        <SkillItem name="All Topics" imageName="dsa.png" percentage={92} />
+                      </>
+                    )}
+                    {skill.title === 'Frontend Developer' && (
+                      <>
+                        <SkillItem name="React" imageName="react.png" percentage={89} />
+                        <SkillItem name="Vue" imageName="vue.png" percentage={69} />
+                        <SkillItem name="Next Js" imageName="nextjs.png" percentage={71} />
+                        <SkillItem name="JavaScript" imageName="javascript.png" percentage={75} />
+                        <SkillItem name="HTML" imageName="html.png" percentage={90} />
+                        <SkillItem name="CSS" imageName="css.png" percentage={77} />
+
                       </>
                     )}
 
-
-                    {skill.title === 'Backend developer' && (
+                    {skill.title === 'Backend Developer' && (
                       <>
-                        <SkillItem name="Node Js" imageName="node" percentage={72} />
-                        <SkillItem name="MySQL" imageName="sql" percentage={62} />
+                        <SkillItem name="MongoDB" imageName="mongodb.png" percentage={92} />
+                        <SkillItem name="Node Js" imageName="node.png" percentage={72} />
+                        <SkillItem name="MySQL" imageName="sql.png" percentage={62} />
+                      </>
+                    )}
+                    {skill.title === 'ML Engineer' && (
+                      <>
+                        <SkillItem name="Neural Networks" imageName="nn.png" percentage={67} />
+                        <SkillItem name="Deep Learning Networks" imageName="dl.jpg" percentage={61} />
+                        <SkillItem name="NLP" imageName="nlp.png" percentage={56} />
+                      </>
+                    )}
+                    {skill.title === 'DataScience Enthusiast' && (
+                      <>
+                        <SkillItem name="Data Analytics Building" imageName="dataanlytics.jpg" percentage={67} />
                       </>
                     )}
                   </>

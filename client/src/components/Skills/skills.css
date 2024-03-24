@@ -70,47 +70,8 @@
     display: block;
     background-color: var(--first-color);
   }
-  
-  .skills__html {
-    width: 90%;
-  }
-  
-  .skills__css {
-    width: 70%;
-  }
-  
-  .skills__js {
-    width: 60%;
-  }
-  
-  .skills__react {
-    width: 40%;
-  }
-  
-  .skills__php {
-    width: 90%;
-  }
-  
-  .skills__mysql {
-    width: 72%;
-  }
-  
-  .skills__node {
-    width: 58%;
-  }
-  
-  .skills__python {
-    width: 94%;
-  }
-  
-  .skills__blender {
-    width: 50%;
-  }
-  
-  .skills__photoshop {
-    width: 42%;
-  }
-  
+
+
   .skills__adobeillustrator {
     width: 62%;
   }
