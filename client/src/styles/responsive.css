@@ -281,8 +281,8 @@
     }
     .home__img img{
         border-radius: 50%;
-        width: 16rem;
-        height: 16rem;
+        width: 17rem;
+        height: 17rem;
     }
     .nav__btns{
         display: block;
@@ -295,6 +295,14 @@
         z-index: 100000;
         position: relative;
     }
-
-
+    
+    .home_title .welcome{
+        margin-top: 1rem;
+        }
+    .home_title .full-name{
+        font-size: 2rem;
+    }
+    .home_title .main-name{
+        margin-bottom: 0.8vh;
+    }
   }
