@@ -49,7 +49,7 @@ const RateP = ({ onClose }) => {
       toastError('Enter valid email and rating!!!')
     } else {
       try {
-        const response = await fetch('https://gvk-portfolio-api1.onrender.com/rating', {
+        const response = await fetch('https://gvk-portfolio-backend.vercel.app/rating', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
@@ -57,7 +57,7 @@ const RateP = ({ onClose }) => {
           body: JSON.stringify({ email, rating })
         })
         console.log(response);
-        if (response.ok) {
+        if (response.success) {
           toastSuccess('Your Rating submitted Succesfully!!');
 
         } else {
@@ -65,7 +65,6 @@ const RateP = ({ onClose }) => {
         }
       } catch (error) { }
 
-      onClose()
     }
   }
 

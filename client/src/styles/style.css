@@ -1136,3 +1136,11 @@ margin-top: 15vh;
 .home__social{
   display: none;
 }
+
+.contact__form {
+  display: none;
+}
+
+.rate-this{
+  display: none;
+}

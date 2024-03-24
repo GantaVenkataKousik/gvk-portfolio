@@ -32,9 +32,9 @@ export const ratingController = async (req, res) => {
             rating,
             time: new Date()
         });
-            
+        console.error('Successs:', err);
             await newRating.save();
-            return res.status(200).send({ success: true, message: 'Successfull' });
+            return res.status(200).json({ success: true, message: 'Successfull' });
         }
      catch (err) {
         console.error('Error:', err);

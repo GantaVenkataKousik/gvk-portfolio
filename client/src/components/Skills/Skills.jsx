@@ -12,7 +12,7 @@ const Skills = () => {
     { title: 'Backend Developer', isOpen: false },
     { title: 'ML Engineer', isOpen: false },
     { title: 'DataScience Enthusiast', isOpen: false },
-
+    { title: 'Game Development', isOpen: false },
     // Add other skills here
   ]);
   const toggleSkills = (index) => {
@@ -112,7 +112,12 @@ const Skills = () => {
                     )}
                     {skill.title === 'DataScience Enthusiast' && (
                       <>
-                        <SkillItem name="Data Analytics Building" imageName="dataanlytics.jpg" percentage={67} />
+                        <SkillItem name="Data Analytics " imageName="dataanlytics.jpg" percentage={67} />
+                      </>
+                    )}
+                    {skill.title === 'Game Development' && (
+                      <>
+                        <SkillItem name="Unity " imageName="unty.png" percentage={51} />
                       </>
                     )}
                   </>

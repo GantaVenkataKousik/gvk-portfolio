@@ -13,15 +13,15 @@ const Download = () => {
   return (
     <div className="button-section">
       <button className='contactme'>
-      <Link
-        to="contact"
-        smooth={true}
-        duration={500}
-        className="button button--flex main-btn"
-        style={{ whiteSpace: 'nowrap', fontSize: 'inherit' }}
-      >
-        Contact Me <i className="uil uil-message button__icon"></i>
-      </Link>
+        <Link
+          to="contact"
+          smooth={true}
+          duration={500}
+          className="button button--flex main-btn"
+          style={{ whiteSpace: 'nowrap', fontSize: 'inherit' }}
+        >
+          Contact Me <i className="uil uil-message button__icon"></i>
+        </Link>
       </button>
 
       <button

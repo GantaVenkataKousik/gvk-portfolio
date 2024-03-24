@@ -87,7 +87,7 @@ export default function Footer() {
                                         <input
                                             type="text"
                                             name="EMAIL"
-                                            onChange={handleEmailChange}
+                                            value="venkatakousikcse01@gmail.com"
                                             className="form-control memail"
                                             placeholder="Email"
                                         />

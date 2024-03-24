@@ -84,7 +84,7 @@ const Contact = () => {
             <div>
               <h3 className="contact__title">Linked In</h3>
               <span className="contact__subtitle">
-                <a href="https://www.linkedin.com/in/venkatakousik/">venkatakousik</a> </span>
+                <a href="https://www.linkedin.com/in/venkatakousik/" target="_blank">venkatakousik</a> </span>
             </div>
           </div>
           <div className="contact__information">
@@ -93,7 +93,7 @@ const Contact = () => {
               <h3 className="contact__title">Github</h3>
 
               <span className="contact__subtitle">
-                <a href="https://github.com/GantaVenkataKousik">GantaVenkataKousik</a> </span>
+                <a href="https://github.com/GantaVenkataKousik" target="_blank">GantaVenkataKousik</a> </span>
             </div>
           </div>
         </div>
