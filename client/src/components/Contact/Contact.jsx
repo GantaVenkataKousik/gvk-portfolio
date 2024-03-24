@@ -32,21 +32,21 @@ const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  
-const handleNameChange = (e) => {
+
+  const handleNameChange = (e) => {
     const newName = e.target.value;
     setName(newName);
-};
+  };
 
-const handleEmailChange = (e) => {
+  const handleEmailChange = (e) => {
     const newEmail = e.target.value;
     setEmail(newEmail);
-};
+  };
 
-const handleMessageChange = (e) => {
+  const handleMessageChange = (e) => {
     const newMessage = e.target.value;
     setMessage(newMessage);
-};
+  };
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -84,16 +84,16 @@ const handleMessageChange = (e) => {
             <div>
               <h3 className="contact__title">Linked In</h3>
               <span className="contact__subtitle">
-              <a href="https://www.linkedin.com/in/venkatakousik/">venkatakousik</a> </span>
+                <a href="https://www.linkedin.com/in/venkatakousik/">venkatakousik</a> </span>
             </div>
           </div>
           <div className="contact__information">
             <i className="uil uil-github-alt contact__icon"></i>
             <div>
               <h3 className="contact__title">Github</h3>
-              
+
               <span className="contact__subtitle">
-              <a href="https://github.com/GantaVenkataKousik">GantaVenkataKousik</a> </span>
+                <a href="https://github.com/GantaVenkataKousik">GantaVenkataKousik</a> </span>
             </div>
           </div>
         </div>
@@ -132,7 +132,7 @@ const handleMessageChange = (e) => {
             ></textarea>
           </div>
 
-          <div>
+          <div className='sendmsg'>
             <button type="submit" className="button button--flex">
               Send Message
               <i className="uil uil-message button__icon"></i>

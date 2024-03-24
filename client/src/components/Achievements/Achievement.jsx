@@ -7,7 +7,7 @@ const Achievement = ({ title, image, description }) => {
       <div className="achievement-card">
         <div className="achievement-content">
           <div className="front">
-            <img src={`/images/${image}`} />
+            <img src={`/achievements/${image}`} />
           </div>
           <div className="back">
             <div className="content">{description}</div>

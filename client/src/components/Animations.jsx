@@ -14,8 +14,6 @@ export default function Animations() {
         <BoxAnimation />
         <RhombusAnimation />
       </div>
-
-
     </>
   );
 };

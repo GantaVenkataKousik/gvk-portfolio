@@ -2,6 +2,7 @@
 import React from 'react';
 import Achievement from './Achievement';
 import { achievements } from './AchievementsData.js';
+import './achievements.css';
 
 const MainComponent = () => {
   return (

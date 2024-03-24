@@ -1,5 +1,55 @@
 
 
+/* For large devices */
+@media screen and (min-width: 1024px) {
+
+    .header,
+    .main,
+    .footer__container {
+      padding: 0;
+    }
+  
+    .home__blob {
+      width: 320px;
+    }
+  
+    .home__social {
+      transform: translateX(-6rem);
+    }
+  
+    .services__container {
+      grid-template-columns: repeat(3, 238px);
+    }
+  
+    .swiper-error {
+      visibility: visible;
+    }
+  
+    .portfolio__content {
+      column-gap: 5rem;
+    }
+  
+    .swiper-portfolio-icon {
+      font-size: 3.5rem;
+    }
+  
+    .swiper-button-prev {
+      left: -3.5rem;
+    }
+  
+    .swiper-button-next {
+      right: -3.5rem;
+    }
+  
+    .swiper-container-horizontal>.swiper-pagination-bullets {
+      bottom: -4.5rem;
+    }
+  
+  
+    .contact__inputs {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 
 @media screen and (max-width:770px) {
     .progress-container {
@@ -8,14 +58,25 @@
     }
 }
 
-
 @media screen and (max-width:900px) {
-
-    .Animations,.header,.progress-container,.Toastify{
+    .rate-popup{
+      width: 90%;
+    }
+    .rate-popup input{
+      width: 90%;
+      margin: 0 auto;
+    }
+    .home__title h1{
+      font-size: 4rem;
+    }
+    .Animations,.header .nav__menu,.header .nav__logo,.Toastify,.container-projects .tags,.home__social,.contact__subtitle{
         display: none;
     }
-    .home__social{
-        display: none;
+    .about img{
+      width: 90%;
+    }
+    .about__description{
+      font-size: 1rem;
     }
     body{
         width: 100%;
@@ -26,7 +87,15 @@
     .home_title span{
         display: block;
     }   
-
+    .home .button-section  .button-section{
+      flex-direction: column;
+    }
+    .home .main-name{
+      font-size: 7rem;
+    }
+    #home{
+      margin-top: -10rem;
+    }
     .contact{
         width: 100%;
         word-wrap: break-word;
@@ -37,9 +106,6 @@
     .contact__information{
         width: 80%;
         word-wrap: break-word;
-    }
-    .contact__subtitle{
-        display: none;
     }
     .main{
         width: 100%;
@@ -57,16 +123,10 @@
         width: 100%;
         margin: 0 ;
         padding:0;
-
-    }
-    .home__img{
-        display: none;
+  
     }
     .button-section .button{
         text-align: center;
-    }
-    .container-projects .tags{
-        display: none;
     }
     .scroll-rate{
         width: 100%;
@@ -83,6 +143,9 @@
         width: 100%;
         margin: 0 auto;
     }
+    .about__container {
+      flex-direction: column;
+    }
     .about__container img{
         margin: 0 auto;
     }
@@ -96,7 +159,7 @@
     
     .container-projects .project{
         width: 90vw;
-        height: 20vh;
+        height: 21vh;
         overflow: hidden;
     }
     .container-projects .project{
@@ -160,7 +223,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-
+  
     }
     .new_footer_top .f_social_icon a{
         border: none;
@@ -183,7 +246,55 @@
         font-size: 1.2rem;
     }
     .home .button-section .button{
-        width: 50vw;
+        width: 210px;
         text-align: center;
     }
+    .about img{
+      height: 35vh;
+      margin-bottom: 1.2rem;
+    }
+    .project .title span{
+        font-size: 1.35rem;
+    }
+    .project .info .content{
+        font-size: 1.1rem;
+        margin: 0.4rem;
+    }
+    .home__content{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .home__content .home__img{
+        margin: 0 auto;
+    }
+    .home .img-con{
+        width: 16rem;
+        height: 16rem;
+    }
+    #home{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home__img img{
+        border-radius: 50%;
+        width: 16rem;
+        height: 16rem;
+    }
+    .nav__btns{
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: -0.7rem;
+    }
+    .nav__btns i{
+        font-size: 1.6rem;
+        z-index: 100000;
+        position: relative;
+    }
+
+
   }

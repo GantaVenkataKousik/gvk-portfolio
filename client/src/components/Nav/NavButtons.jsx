@@ -23,9 +23,6 @@ const NavButtons = () => {
     <div className="nav__btns">
     <i className="uil uil-moon change-theme" id="theme-button" onClick={toggleTheme}></i>
 
-    <div className="nav__toggle" id="nav-toggle">
-      <i className="uil uil-apps"></i>
-    </div>
   </div>
   );
 };

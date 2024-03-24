@@ -12,6 +12,7 @@ const Download = () => {
   };
   return (
     <div className="button-section">
+      <button className='contactme'>
       <Link
         to="contact"
         smooth={true}
@@ -21,6 +22,8 @@ const Download = () => {
       >
         Contact Me <i className="uil uil-message button__icon"></i>
       </Link>
+      </button>
+
       <button
         onClick={handleDownload}
         className="button button--flex main-btn"

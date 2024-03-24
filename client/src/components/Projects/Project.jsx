@@ -1,9 +1,10 @@
 // Project.js
 import React from 'react';
+import './projects.css';
 
 const Project = ({ project }) => {
   const { title, imageName, content, tags, link } = project;
-  const imagePath = `/images/${imageName}`;
+  const imagePath = `/imgs/projects/${imageName}`;
 
   return (
     <a href={link} target="_blank" rel="noopener noreferrer" style={{ color: '#fff' }}>
@@ -13,11 +14,11 @@ const Project = ({ project }) => {
         </div>
         <div className="info">
           <div className="title">
-            <span>
+            <span >
               {title} <span><i className="fa-solid fa-arrow-up arrow"></i></span>
             </span>
           </div>
-          <div className="content" style={{ fontSize: '0.9rem' }}>
+          <div className="content" >
             {content}
           </div>
           <ul className="tags">

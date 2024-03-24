@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SkillItem from './SkillItem';
+import './skills.css';
 
 const Skills = () => {
   const [skillsState, setSkillsState] = useState([
@@ -22,14 +23,14 @@ const Skills = () => {
 
   return (
     <section className="skills section" id="skills">
-          <h2 className="section__title" style={{ color: '#5779e0' }}>
+      <h2 className="section__title" style={{ color: '#5779e0' }}>
         Skills
       </h2>
       <span className="section__subtitle">
         My <span className="highlight" style={{ fontSize: '0.9rem' }}>technical</span> level
       </span>
       <div data-aos="fade-up" className="skills__container container grid">
-      
+
         {skillsState.map((skill, index) => (
           <div key={index}>
             <div className={`skills__content ${skill.isOpen ? 'skills__open' : 'skills__close'}`}>
@@ -62,7 +63,7 @@ const Skills = () => {
                       </>
                     )}
 
-                    
+
                     {skill.title === 'Backend developer' && (
                       <>
                         <SkillItem name="Node Js" imageName="node" percentage={72} />

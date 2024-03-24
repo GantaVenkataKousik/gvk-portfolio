@@ -25,10 +25,10 @@ const RateButton = () => {
         className="home__scroll-button button--flex"
         onClick={handleRateButtonClick}
       >
-        <span className="home__scroll-name" style={styling}>
-          Rate this{' '}
+        <span className="rate-this" >
+          Rate this{' '}        <i className="fa-regular fa-star" style={{ color: '#5779d7' }}></i>
         </span>
-        <i className="fa-regular fa-star" style={{ color: '#5779d7' }}></i>
+
       </div>
 
       {showRatePopup && <RatePopup onClose={ratePopAfterClick} />}

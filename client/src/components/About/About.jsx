@@ -1,4 +1,5 @@
 import React from 'react';
+import './about.css';
 
 const About = () => {
 
@@ -16,7 +17,7 @@ const About = () => {
       <span className="section__subtitle"> My Introduction</span>
 
       <div data-aos="fade-left" className="about__container container grid">
-        <img src="/portfolio-images/k4.png" alt="" style={{ borderRadius: '20px' }} />
+        <img src="/me/gvk.png" alt="" style={{ borderRadius: '20px' }} />
 
         <div className="about__data">
           <p className="about__description">
@@ -53,7 +54,7 @@ const About = () => {
               className="button button--flex main-btn"
               style={{ whiteSpace: 'nowrap', fontSize: 'inherit' }}
             >
-               Download CV<i className="uil uil-download-alt button__icon"></i>
+              Download CV<i className="uil uil-download-alt button__icon"></i>
             </button>
           </div>
         </div>

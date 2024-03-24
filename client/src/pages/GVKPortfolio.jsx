@@ -19,20 +19,20 @@ export default function GVKPortfolio() {
 
         // Show a toast when the component mounts
         toast.success('Thank you for visiting my Portfolio🎉🎉🎉', {
-          position: 'top-right',
-          autoClose: 10000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: 'colored',
-          style: {
+            position: 'top-right',
+            autoClose: 10000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: 'colored',
+            style: {
                 fontWeight: 'bold',
                 fontSize: '2rem',
             },
         });
-        
+
     }, []);
 
 
@@ -51,7 +51,6 @@ export default function GVKPortfolio() {
                 theme="colored"
                 className={toast}
             />
-            <Animations/>
             <Page />
         </>
     );

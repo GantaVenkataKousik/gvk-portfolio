@@ -22,6 +22,7 @@ export default function Nav(){
         <NavItem to="contact" icon="uil-message" label="Contact me" />
 
       </ul>
+      
     </div>
     <NavButtons />
         

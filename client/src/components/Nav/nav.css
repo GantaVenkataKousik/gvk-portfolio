@@ -1,0 +1,43 @@
+
+.nav a {
+    font-size: 1.3rem;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 10vh;
+    justify-content: space-between;
+  }
+  
+  .nav__list {
+    margin-top: 2vh;
+  }
+  
+  
+  .nav__items {
+    position: relative;
+  }
+  .nav .nav__logo span{
+    font-size: 2rem;
+  }
+  .nav__items::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #5779e0;
+    /* Adjust color as needed */
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .nav__items:hover::after {
+    width: 100%;
+  }
+
+  .header{
+    z-index: 10000;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
