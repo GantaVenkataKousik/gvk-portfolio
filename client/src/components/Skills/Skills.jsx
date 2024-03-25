@@ -12,7 +12,7 @@ const Skills = () => {
     { title: 'Backend Developer', isOpen: false },
     { title: 'ML Engineer', isOpen: false },
     { title: 'DataScience Enthusiast', isOpen: false },
-    { title: 'Game Development', isOpen: false },
+    { title: 'Game Developer', isOpen: false },
     // Add other skills here
   ]);
   const toggleSkills = (index) => {

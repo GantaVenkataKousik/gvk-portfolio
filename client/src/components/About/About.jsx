@@ -17,7 +17,7 @@ const About = () => {
       <span className="section__subtitle"> My Introduction</span>
 
       <div data-aos="fade-left" className="about__container container grid">
-        <img src="/me/gvk.png" alt="" style={{ borderRadius: '20px' }} />
+        <img src="/me/m3.jpg" alt="" style={{ borderRadius: '20px' }} />
 
         <div className="about__data">
           <p className="about__description">
