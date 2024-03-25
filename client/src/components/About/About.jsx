@@ -21,13 +21,16 @@ const About = () => {
 
         <div className="about__data">
           <p className="about__description">
-            👋 Hi there! I'm a versatile full-stack developer fluent in MERN stack 🌐, crafting robust
+            👋 Hi there! I'm an DSA Specialist and a versatile full-stack developer knowledge in <span className="highlight">MERN stack 🌐</span> , crafting robust
             solutions blending <span className="highlight">MongoDB, Express, React, and Node.js</span> .
-            Proficient in Java, Python, and JavaScript,🔍I excel in responsive <span className="highlight">web
-              app design and backend development</span> 💻. <br /><br />
-
+            Proficient in Java, Python,C,C++ and JavaScript,🔍I have created dyanmic and user-friendly<span className="highlight">web
+              mobile apps using flutter and performed in depth analysis on data using tools like power bi.</span> 💻. <br /><br />
+            I have created excellent <span className="highlight">UI/UX designs using FIGMA , Wix Studio </span>every work will definitely stole your heart.
+            <br />
+            <br />
             Passionate about problem-solving, I've conquered 📊 <span className="highlight">1500+ DSA
-              challenges</span> , securing top ranks on platforms like GeeksForGeeks and LeetCode 🏆.
+              challenges</span> , securing top ranks on platforms like GeeksForGeeks,Leetcode and coding Ninjas 🏆.
+            <br />
           </p>
 
           <div className="about_info">
