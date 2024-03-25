@@ -3,11 +3,16 @@ import { Link } from 'react-scroll';
 
 const Download = () => {
   const handleDownload = () => {
-    const url = '/documents/GVK-Resume.pdf';
+    const url = '/documents/GVKResume.pdf';
     const link = document.createElement('a');
     link.href = url;
     link.target = '_blank';
     link.download = 'GVK.pdf';
+
+    link.addEventListener('error', (event) => {
+      console.error('Error occurred while downloading PDF:', event);
+    });
+
     link.click();
   };
   return (
