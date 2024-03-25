@@ -25,7 +25,7 @@ const About = () => {
             solutions blending <span className="highlight">MongoDB, Express, React, and Node.js</span> .
             Proficient in Java, Python,C,C++ and JavaScript,🔍I have created dyanmic and user-friendly<span className="highlight">web
               mobile apps using flutter and performed in depth analysis on data using tools like power bi.</span> 💻. <br /><br />
-            I have created excellent <span className="highlight">UI/UX designs using FIGMA , Wix Studio </span>every work will definitely stole your heart.
+            I have created excellent <span className="highlight">UI/UX designs using FIGMA , Wix Studio </span>.Every work will definitely steal your heart.
             <br />
             <br />
             Passionate about problem-solving, I've conquered 📊 <span className="highlight">1500+ DSA
