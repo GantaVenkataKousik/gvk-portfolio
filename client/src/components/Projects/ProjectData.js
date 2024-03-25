@@ -71,7 +71,7 @@ export const projects = [
     imageName: "content.png",
     content: "Users can interact with one another with their blogs can see their blogs personalised info, interact with others posts , solves queries.",
     tags: ["React", "MongoDB", "Express", "Node JS"],
-    link: "https://gvk-bucks.vercel.app/",
+    link: "https://www.linkedin.com/posts/venkatakousik_bharatintern-contentmanagement-fullstackdeveloper-activity-7106539124232261632-Ak9t?utm_source=share&utm_medium=member_desktop",
   },
   {
     id: 13,
@@ -79,7 +79,7 @@ export const projects = [
     imageName: "ui-designs.png",
     content: "Made mutiple amazing UI designs for startup companies adn retailer companies using Figma  ,every design will define the depth of designs the color palettes used will catch your eyes.",
     tags: ["Figma"],
-    link: "https://gvk-bucks.vercel.app/",
+    link: "https://www.linkedin.com/posts/venkatakousik_design-figma-burger-activity-7177110179715448832-ynun?utm_source=share&utm_medium=member_desktop",
   },
   {
     id: 14,
@@ -87,7 +87,7 @@ export const projects = [
     imageName: "project.png",
     content: "Manages tasks for employees assigning tasks seeing the progress sending personalised messages , encrypting everything so securely as big organisations are involved.",
     tags: ["React", "MongoDB", "Express", "Node JS"],
-    link: "https://gvk-bucks.vercel.app/",
+    link: "https://www.linkedin.com/posts/venkatakousik_bharatintern-fullstackdevelopment-projectmanagement-activity-7107067205242023936-45Sa?utm_source=share&utm_medium=member_desktop",
   },
   {
     id: 15,
@@ -95,7 +95,7 @@ export const projects = [
     imageName: "task-scheduler.png",
     content: "schudules the tasks , user can mark them as complete completed and time will be tracked exactly.",
     tags: ["React", "MongoDB", "Express", "Node JS"],
-    link: "https://gvk-bucks.vercel.app/",
+    link: "https://www.linkedin.com/posts/venkatakousik_connections-oasisinfobyte-internship-activity-7055560702698143744-7WS8?utm_source=share&utm_medium=member_desktop",
   },  {
     id: 5,
     title: "Startup Event🚀📅",
