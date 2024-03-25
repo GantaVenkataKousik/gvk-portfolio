@@ -54,10 +54,10 @@ const Skills = () => {
                   <>
                     {skill.title === 'FullStack Developer' && (
                       <>
-                        <SkillItem name="React" imageName="react.png" percentage={89} />
-                        <SkillItem name="Express" imageName="express.png" percentage={89} />
-                        <SkillItem name="Node Js" imageName="node.png" percentage={89} />
-                        <SkillItem name="MongoDB" imageName="mongodb.png" percentage={89} />
+                        <SkillItem name="React" imageName="react.png" percentage={93} />
+                        <SkillItem name="Express" imageName="express.png" percentage={91} />
+                        <SkillItem name="Node Js" imageName="node.png" percentage={88} />
+                        <SkillItem name="MongoDB" imageName="mongodb.png" percentage={81} />
 
                       </>
                     )}
@@ -115,7 +115,7 @@ const Skills = () => {
                         <SkillItem name="Data Analytics " imageName="dataanlytics.jpg" percentage={67} />
                       </>
                     )}
-                    {skill.title === 'Game Development' && (
+                    {skill.title === 'Game Developer' && (
                       <>
                         <SkillItem name="Unity " imageName="unty.png" percentage={51} />
                       </>
