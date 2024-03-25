@@ -39,7 +39,7 @@ export const achievements = [
   },  {
     title: "Appreciation for my work from IIT's , NIT's",
     image: 'apprecation-iits.png',
-    description: "Students from IIT's , NIT's are pouring their appreciation for mny work.",
+    description: "Students from IIT's , NIT's are pouring their appreciation for my work.",
   },
   {
     title: 'Got offers from startups & Developers to Design Websites , Apps & Posters',
@@ -51,18 +51,18 @@ export const achievements = [
   {
     title: 'Connection requests from working professionals on linkedIn',
     image: 'working-emp-conn.png',
-    description: 'working professions from TCS,Cognizant,wipro and SDE has sent me a connection request.',
+    description: 'working professionals from TCS,Cognizant,wipro and SDE has sent me a connection request.',
   },
   {
     title: 'Designed mutliple posters & Banners for college',
     image: 'mutiple-banners-posters.png',
-    description: 'Department Lectureres liekd my work and offered to design lot of posters and banners for college events .',
+    description: 'Department Lectureres liked my work and offered to design lot of posters and banners for college events .',
   },
  
   {
     title: '2000 followers with 1400 profile viewers per week on linked In',
     image: 'followers-pro-viewers.png',
-    description: 'had a strong follower base and average numnber of profile viwers for my profile on linkedIn🎉 ',
+    description: 'had a strong follower base and average number of profile viwers for my profile on linkedIn🎉 ',
   },
 
 
