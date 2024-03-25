@@ -1,143 +1,143 @@
 /*==================== FOOTER ====================*/
 .footer {
     padding-top: 2rem;
-  }
-  
-  .footer__container {
+}
+
+.footer__container {
     row-gap: 3.5rem;
-  }
-  
-  .footer__bg {
+}
+
+.footer__bg {
     background-color: var(--first-color);
     padding: 2rem 0 3rem;
-  }
-  
-  .footer__title {
+}
+
+.footer__title {
     font-size: var(--h1-font-size);
     margin-bottom: var(--mb-0-25);
-  }
-  
-  .footer__subtitle {
+}
+
+.footer__subtitle {
     font-size: var(--small-font-size);
-  }
-  
-  .footer__links {
+}
+
+.footer__links {
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
-  }
-  
-  .footer__link:hover {
+}
+
+.footer__link:hover {
     color: var(--first-color-lighter);
-  }
-  
-  .footer__social {
+}
+
+.footer__social {
     font-size: 1.25rem;
     margin-right: var(--mb-1-5);
-  }
-  
-  footer .footer__social a:hover {
+}
+
+footer .footer__social a:hover {
     color: var(--first-color-lighter);
-  }
-  
-  .footer__copy {
+}
+
+.footer__copy {
     font-size: var(--smaller-font-size);
     text-align: center;
     color: var(--text-color-light);
     margin-top: var(--mb-3);
-  }
-  
-  .footer__title,
-  .footer__subtitle,
-  .footer__link,
-  .footer__social {
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social {
     color: #fff;
-  }
-  
+}
+
 /* FOOTER */
 
 .new_footer_top {
     padding: 120px 0px 270px;
     position: relative;
     overflow-x: hidden;
-  }
-  
-  .new_footer_area .footer_bottom {
+}
+
+.new_footer_area .footer_bottom {
     padding-top: 5px;
     padding-bottom: 50px;
-  }
-  
-  .footer_bottom {
+}
+
+.footer_bottom {
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
     color: #7f88a6;
     padding: 27px 0px;
-  }
-  
-  .new_footer_top .company_widget p {
+}
+
+.new_footer_top .company_widget p {
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
     color: #6a7695;
     margin-bottom: 20px;
-  }
-  
-  .new_footer_top .company_widget .f_subscribe_two .btn_get {
+}
+
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
     border-width: 1px;
     margin-top: 20px;
-  }
-  
-  .btn_get_two:hover {
+}
+
+.btn_get_two:hover {
     background: transparent;
     color: #5779e0;
-  }
-  
-  .btn_get:hover {
+}
+
+.btn_get:hover {
     color: #fff;
     background: #5779e0;
     border-color: #5779e0;
     -webkit-box-shadow: none;
     box-shadow: none;
-  }
-  
-  a:hover,
-  a:focus,
-  .btn:hover,
-  .btn:focus,
-  button:hover,
-  button:focus {
+}
+
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
     text-decoration: none;
     outline: none;
-  }
-  
-  
-  
-  .new_footer_top .f_widget.about-widget .f_list li a:hover {
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
     color: #5779e0;
-  }
-  
-  .new_footer_top .f_widget.about-widget .f_list li {
+}
+
+.new_footer_top .f_widget.about-widget .f_list li {
     margin-bottom: 11px;
-  }
-  
-  .f_widget.about-widget .f_list li:last-child {
+}
+
+.f_widget.about-widget .f_list li:last-child {
     margin-bottom: 0px;
-  }
-  
-  .f_widget.about-widget .f_list li {
+}
+
+.f_widget.about-widget .f_list li {
     margin-bottom: 15px;
-  }
-  
-  .f_widget.about-widget .f_list {
+}
+
+.f_widget.about-widget .f_list {
     margin-bottom: 0px;
-  }
-  
-  .new_footer_top .f_social_icon {
+}
+
+.new_footer_top .f_social_icon {
     width: 20vw;
-  }
-  
-  .new_footer_top .f_social_icon a {
+}
+
+.new_footer_top .f_social_icon a {
     width: 44px;
     height: 44px;
     line-height: 43px;
@@ -145,9 +145,9 @@
     border: 1px solid #e2e2eb;
     font-size: 24px;
     margin: 0.2rem;
-  }
-  
-  .f_social_icon a {
+}
+
+.f_social_icon a {
     width: 46px;
     height: 46px;
     border-radius: 50%;
@@ -160,74 +160,74 @@
     -webkit-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
-  }
-  
-  .ti-facebook:before {
+}
+
+.ti-facebook:before {
     content: "\e741";
-  }
-  
-  .ti-twitter-alt:before {
+}
+
+.ti-twitter-alt:before {
     content: "\e74b";
-  }
-  
-  .ti-vimeo-alt:before {
+}
+
+.ti-vimeo-alt:before {
     content: "\e74a";
-  }
-  
-  .ti-pinterest:before {
+}
+
+.ti-pinterest:before {
     content: "\e731";
-  }
-  
-  .btn_get_two {
+}
+
+.btn_get_two {
     -webkit-box-shadow: none;
     box-shadow: none;
     background: #5779e0;
     border-color: #5779e0;
     color: #fff;
-  }
-  
-  .btn_get_two:hover {
+}
+
+.btn_get_two:hover {
     background: transparent;
     color: #5779e0;
-  }
-  
-  .new_footer_top .f_social_icon a:hover {
+}
+
+.new_footer_top .f_social_icon a:hover {
     background: #5779e0;
     border-color: #5779e0;
     color: white;
-  }
-  
-  .new_footer_top .f_social_icon a+a {
+}
+
+.new_footer_top .f_social_icon a+a {
     margin-left: 4px;
-  }
-  
-  .new_footer_top .f-title {
+}
+
+.new_footer_top .f-title {
     margin-bottom: 30px;
     color: #263b5e;
-  }
-  
-  .f_600 {
+}
+
+.f_600 {
     font-weight: 600;
-  }
-  
-  .f_size_18 {
+}
+
+.f_size_18 {
     font-size: 18px;
-  }
-  
-  .new_footer_top .f_widget.about-widget .f_list li a {
+}
+
+.new_footer_top .f_widget.about-widget .f_list li a {
     color: #6a7695;
-  }
-  
-  
-  .new_footer_top .footer_bg {
+}
+
+
+.new_footer_top .footer_bg {
     position: absolute;
     bottom: 0;
     background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigB8iI5tb8WSVBuVUGc9UjjB8O0708X7Fdic_4O1LT4CmLHoiwhanLXiRhe82yw0R7LgACQ2IhZaTY0hhmGi0gYp_Ynb49CVzfmXtYHUVKgXXpWvJ_oYT8cB4vzsnJLe3iCwuzj-w6PeYq_JaHmy_CoGoa6nw0FBo-2xLdOPvsLTh_fmYH2xhkaZ-OGQ/s16000/footer_bg.png") no-repeat scroll center 0;
     width: 100%;
     height: 266px;
-  }
-  
-  .new_footer_top .footer_bg .footer_bg_one {
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
     background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0PYPxwT5ifToyP3SNZeQWfJEWrUENYA5IXM6sN5vLwAKvaJS1pQVu8mOFFUa_ET4JuHNTFAxKURFerJYHDUWXLXl1vDofYXuij45JZelYOjEFoCOn7E6Vxu0fwV7ACPzArcno1rYuVxGB7JY6G7__e4_KZW4lTYIaHSLVaVLzklZBLZnQw047oq5-Q/s16000/volks.gif") no-repeat center center;
     width: 330px;
     height: 105px;
@@ -237,9 +237,9 @@
     left: 30%;
     -webkit-animation: myfirst 22s linear infinite;
     animation: myfirst 22s linear infinite;
-  }
-  
-  .new_footer_top .footer_bg .footer_bg_two {
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
     background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyLGwEUVwPK6Vi8xXMymsc-ZXVwLWyXhogZxbcXQYSY55REw_0D4VTQnsVzCrL7nsyjd0P7RVOI5NKJbQ75koZIalD8mqbMquP20fL3DxsWngKkOLOzoOf9sMuxlbyfkIBTsDw5WFUj-YJiI50yzgVjF8cZPHhEjkOP_PRTQXDHEq8AyWpBiJdN9SfQA/s16000/cyclist.gif") no-repeat center center;
     width: 88px;
     height: 100px;
@@ -249,9 +249,8 @@
     position: absolute;
     -webkit-animation: myfirst 30s linear infinite;
     animation: myfirst 30s linear infinite;
-  }
-  
+}
+
 .footer_bottom .copyright {
     font-size: 1.1rem;
-  }
-  
+}

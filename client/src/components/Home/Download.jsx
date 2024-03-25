@@ -3,9 +3,11 @@ import { Link } from 'react-scroll';
 
 const Download = () => {
   const handleDownload = () => {
-    const url = '/documents/GVKResume.pdf';
+    const url = '/documents/GVK-Resume.pdf';
+    const encodedUrl = encodeURI(url); // Encode the URL
+
     const link = document.createElement('a');
-    link.href = url;
+    link.href = encodedUrl;
     link.target = '_blank';
     link.download = 'GVK.pdf';
 
