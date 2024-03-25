@@ -93,7 +93,7 @@ export const projects = [
     id: 15,
     title: "Task Scheduler",
     imageName: "task-scheduler.png",
-    content: "schudules the tasks , user can mark them as complete completed and time will be tracked exactly.",
+    content: "schedules the tasks , user can mark them as complete completed and time will be tracked exactly.",
     tags: ["React", "MongoDB", "Express", "Node JS"],
     link: "https://www.linkedin.com/posts/venkatakousik_connections-oasisinfobyte-internship-activity-7055560702698143744-7WS8?utm_source=share&utm_medium=member_desktop",
   },  {
