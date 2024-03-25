@@ -93,7 +93,20 @@ const Contact = () => {
               <h3 className="contact__title">Github</h3>
 
               <span className="contact__subtitle">
-                <a href="https://github.com/GantaVenkataKousik" target="_blank">GantaVenkataKousik</a> </span>
+                <a href="" target="_blank">GantaVenkataKousik</a> </span>
+            </div>
+          </div>
+
+          <div className="contact__information">
+            <i className="uil uil-github-alt contact__icon"></i>
+            <div>
+              <h3 className="contact__title">Contact</h3>
+
+              <span className="contact__subtitle">
+                <a href="https://www.linkedin.com/in/venkatakousik/" target="_blank">+91 7337066524</a>
+                <br />
+                <a href="https://www.linkedin.com/in/venkatakousik/" target="_blank">+91 9441527402</a></span>
+
             </div>
           </div>
         </div>
