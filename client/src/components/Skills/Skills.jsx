@@ -5,15 +5,11 @@ import './skills.css';
 const Skills = () => {
   const [skillsState, setSkillsState] = useState([
     { title: 'FullStack Developer', isOpen: false },
-    { title: 'App Developer', isOpen: false },
     { title: 'UX/UI Designer', isOpen: false },
     { title: 'DSA Specialist', isOpen: false },
     { title: 'Frontend Developer', isOpen: false },
     { title: 'Backend Developer', isOpen: false },
     { title: 'ML Engineer', isOpen: false },
-    { title: 'DataScience Enthusiast', isOpen: false },
-    { title: 'Game Developer', isOpen: false },
-    // Add other skills here
   ]);
   const toggleSkills = (index) => {
     setSkillsState((prevSkillsState) => {

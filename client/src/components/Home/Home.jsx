@@ -71,15 +71,12 @@ const Home = () => {
             </div>
 
             <div data-aos="fade-right" className="home__img">
-              <img src="/me/gvk4.jpg" alt="" />
-
+              <img src="/me/gvk4.png" alt="" />
             </div>
-
-
             <div className="home__data">
               <h1 className="home_title">
                 <div className='welcome'>Hi!👋,I'm
-                  <span>  </span> </div>
+                  <span></span> </div>
                 <span></span>
                 <div><span className="highlight main-name">GVK</span>
                   <span className="highlight full-name">Ganta Venkata Kousik</span></div> </h1>
@@ -94,9 +91,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-
           <div className='scroll-rate'>
-
             <ScrollDown />
             <RateButton />
           </div>

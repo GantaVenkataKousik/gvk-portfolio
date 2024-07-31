@@ -3,13 +3,13 @@ import { Link } from 'react-scroll';
 
 const Download = () => {
   const handleDownload = () => {
-    const url = '/documents/GVK-Resume.pdf';
+    const url = '/documents/GVK_Resume.pdf';
     const encodedUrl = encodeURI(url); // Encode the URL
 
     const link = document.createElement('a');
     link.href = encodedUrl;
     link.target = '_blank';
-    link.download = 'GVK.pdf';
+    link.download = 'GVK_Resume.pdf';
 
     link.addEventListener('error', (event) => {
       console.error('Error occurred while downloading PDF:', event);

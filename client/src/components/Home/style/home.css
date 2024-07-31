@@ -1,151 +1,159 @@
-.scroll-rate{
-    display: flex;
-    width: 40vw;
-    align-items: center;
-    gap: 3rem;
-    margin-top: -5rem;
+.scroll-rate {
+  display: flex;
+  width: 40vw;
+  align-items: center;
+  gap: 3rem;
+  margin-top: -5rem;
 }
 
-.home__img{
-    margin-right: -10rem;
+.home__img {
+  margin-right: -10rem;
 }
+
 /*==================== HOME ====================*/
 .home__container {
-    gap: 1rem;
-  }
-  
-  .home__content {
-    padding-top: 3.5rem;
-    align-items: center;
-  }
-  
-  .home__social {
-    display: none;
-    right: 20vw;
-    top: 10vh;
-  }
-  
-  .home__social-icon {
-    font-size: 1.25rem;
-    color: var(--first-color);
-  }
-  
-  .home__social-icon:hover {
-    color: var(--first-color-alt);
-  }
-  
-  .home__blob {
-    height: 300px;
-    width: 450px;
-    fill: var(--first-color);
-    z-index: 10000000;
-  }
-  
-  .home__blob-img {
-    width: 250px;
-  }
-  
-  .home__data {
-    grid-column: 1/3;
-  }
-  
-  .home__title {
-    font-size: var(--big-font-size);
-  }
-  
-  .home__subtitle {
-    font-size: var(--h3-font-size);
-    color: var(--text-color);
-    font-weight: var(--font-medium);
-    margin-bottom: var(--mb-0-75);
-  }
-  
-  .home__description {
-    margin-bottom: var(--mb-2);
-  }
-  
-  .home__scroll-button {
-    color: var(--first-color);
-    transition: .3s;
-  }
-  
-  .home__scroll-button:hover {
-    transform: translateY(0.25rem)
-  }
-  
-  .home__scroll-mouse {
-    font-size: 2rem;
-  }
-  
-  .home__scroll-name {
-    font-size: var(--small-font-size);
-    color: var(--title-color);
-    font-weight: var(--font-medium);
-    margin-right: var(--mb-0-25);
-  }
-  
-  .home__scroll-arrow {
-    font-size: 1.25rem;
-  }
-  
-  
-.home .welcome span{
-    display: block;
+  gap: 1rem;
 }
 
-.home .home__scroll a{
-    font-size: 1.3rem;
+.home__content {
+  padding-top: 3.5rem;
+  align-items: center;
 }
 
-.home .rate-this{
-    font-size: 1.1rem;
-    color:rgb(101, 99, 99);
-    cursor: pointer;
+.home__social {
+  display: none;
+  right: 20vw;
+  top: 10vh;
 }
 
-.home .scroll-down{
-    display: flex;
-    align-items: center;
-    font-size: 1.1rem;
-    color:rgb(101, 99, 99);
-}
-.home .scroll-down i{
-    color: #6278e0;
-}
-.home .main-name{
-    font-size: 10rem;   
-}
-.home .full-name{
-    display: block;
-    margin-top: -2rem;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+.home__social-icon {
+  font-size: 1.25rem;
+  color: var(--first-color);
 }
 
-.home rect{
-    margin-left: 5rem;
-    border-radius: 2rem;
-}
-.home .img-con{
-    background: #6278e0;
-    border-radius: 50%;
-    width: 21rem;
-    height: 21rem;
-    overflow: hidden;
-}
-.home .img-con img{
-    width: 25rem;
-    height: 21rem;
-}
-.home{
-    margin-bottom: -7vh;
+.home__social-icon:hover {
+  color: var(--first-color-alt);
 }
 
-.home__img img{
+.home__blob {
+  height: 300px;
+  width: 450px;
+  fill: var(--first-color);
+  z-index: 10000000;
+}
+
+.home__blob-img {
+  width: 250px;
+}
+
+.home__data {
+  grid-column: 1/3;
+}
+
+.home__title {
+  font-size: var(--big-font-size);
+}
+
+.home__subtitle {
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-75);
+}
+
+.home__description {
+  margin-bottom: var(--mb-2);
+}
+
+.home__scroll-button {
+  color: var(--first-color);
+  transition: .3s;
+}
+
+.home__scroll-button:hover {
+  transform: translateY(0.25rem)
+}
+
+.home__scroll-mouse {
+  font-size: 2rem;
+}
+
+.home__scroll-name {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  margin-right: var(--mb-0-25);
+}
+
+.home__scroll-arrow {
+  font-size: 1.25rem;
+}
+
+
+.home .welcome span {
+  display: block;
+}
+
+.home .home__scroll a {
+  font-size: 1.3rem;
+}
+
+.home .rate-this {
+  font-size: 1.1rem;
+  color: rgb(101, 99, 99);
+  cursor: pointer;
+}
+
+.home .scroll-down {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: rgb(101, 99, 99);
+}
+
+.home .scroll-down i {
+  color: #6278e0;
+}
+
+.home .main-name {
+  font-size: 10rem;
+}
+
+.home .full-name {
+  display: block;
+  margin-top: -2rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.home rect {
+  margin-left: 5rem;
+  border-radius: 2rem;
+}
+
+.home .img-con {
+  background: #6278e0;
+  border-radius: 50%;
+  width: 21rem;
+  height: 21rem;
+  overflow: hidden;
+}
+
+.home .img-con img {
+  width: 25rem;
+  height: 21rem;
+}
+
+.home {
+  margin-bottom: -7vh;
+}
+
+.home__img img {
   border-radius: 50%;
   width: 23rem;
   height: 23rem;
 }
-.home__social{
+
+.home__social {
   display: none;
 }

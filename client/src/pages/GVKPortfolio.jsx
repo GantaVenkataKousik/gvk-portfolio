@@ -6,18 +6,15 @@ import '../styles/responsive.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Bounce } from 'react-toastify';
-
+import { Analytics } from "@vercel/analytics/react"
 export default function GVKPortfolio() {
 
 
     useEffect(() => {
-        // Check if screen width is less than 500px
         if (window.innerWidth < 500) {
-            // Don't show the toast if screen width is less than 500px
             return;
         }
 
-        // Show a toast when the component mounts
         toast.success('Thank you for visiting my Portfolio🎉🎉🎉', {
             position: 'top-right',
             autoClose: 10000,
@@ -37,7 +34,7 @@ export default function GVKPortfolio() {
 
 
     return (
-        <>
+        <>        <Analytics />
             <ToastContainer
                 position="top-center"
                 autoClose={5000}
