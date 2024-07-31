@@ -1,32 +1,30 @@
 export const projects = [
   {
     id: 1,
-    title: "My Portfolio🌟📂",
+    title: "Second Unique Portfolio",
     imageName: "my-portfolio.png",
-    content: "A digital stage where my skills and journey unfold through a curated collection of projects and achievements. Explore the fusion of creativity and proficiency, as I invite you to embark on my professional narrative made with MERN Stack.",
+    content: "Engineered a DSA tracker, cutting tracking time by 50% and integrating multiple coding platforms for enhanced progress visualization\nImplemented advanced security measures, achieving 100% data protection and preventing breaches.",
     tags: ["React", "MongoDB", "Express", "Node JS"],
     link: "https://gvkportfolio.vercel.app/",
   },
-
+  {
+    id: 2,
+    title: "DSA Tracker",
+    content: "Engineered a DSA tracker, cutting tracking time by 50% and integrating multiple coding platforms for enhanced progress visualization\nImplemented advanced security measures, achieving 100% data protection and preventing breaches ", tags: ["React", "MongoDB", "Express", "Node JS"],
+    imageName: "dsaTracker.png",
+    link: "https://dsa-tracker-website.vercel.app/"
+  },
   {
     id: 3,
-    title: "Skill 2040🛠️🎓",
+    title: "Skill 2040",
     imageName: "skill-2040.png",
     content: "A website that completely embraces the performance of an engineering student from A-Z. Tracking every minute detail of coding stats, course completions, performance on and giving suggestions based on an individual.",
     tags: ["React", "MongoDB", "Express", "Node JS"],
     link: "https://gvk-skill-2040.vercel.app/",
   },
   {
-    id: 8,
-    title: "DSA Tracker💻📊",
-    imageName: "dsa-tracker.jpeg",
-    content: "A Virtual Keyboard that enables typing virtually without any physical contact by just tapping in the air, then the words will be automatically displayed on the screen in the numpad made using Python.",
-    tags: ["Python", "AI", "Machine Learning"],
-    link: "https://www.linkedin.com/posts/venkatakousik_dsatracker-websitedevelopment-bulding-activity-7175667640533749760-xJmS?utm_source=share&utm_medium=member_desktop",
-  },
-  {
     id: 6,
-    title: "Sports Scheduler🏅⏱️",
+    title: "Sports Scheduler",
     imageName: "sports-scheduler.png",
     content: "A website made for organizing sports using Advanced Full Stack that leverages the art of testing along with development of the website using PERN stack.",
     tags: ["PostgreSQL", "Express", "React", "Node JS"],
@@ -34,31 +32,31 @@ export const projects = [
   },
   {
     id: 4,
-    title: "AI Virtual Keyboard⌨️🚫",
+    title: "AI Virtual Keyboard",
     imageName: "ai-virtual-keyboard.png",
     content: "Enables typing virtually without any physical contact by just tapping in the air, then the words will be automatically displayed on the screen in the numpad made using Python.",
     tags: ["Python", "AI", "Machine Learning"],
     link: "https://www.linkedin.com/posts/venkatakousik_virtual-keyboard-typing-activity-7164243859428896768-smHH?utm_source=share&utm_medium=member_desktop",
   },
 
- 
+
   {
     id: 9,
-    title: "Vishnu Connect🌐👥",
+    title: "Vishnu Connect",
     imageName: "vishnu-connect.jpeg",
     content: "Vishnu Connect is a dynamic social connection platform tailored exclusively for students, fostering a vibrant community where ideas, thoughts, and experiences are seamlessly shared. Similar to Twitter.",
     tags: ["React", "MongoDB", "Express", "Node JS"],
     link: "https://www.linkedin.com/posts/venkatakousik_fullstackdevelopment-mern-vishnu-activity-7128054408503848961-BxK6?utm_source=share&utm_medium=member_desktop",
-  },   {
+  }, {
     id: 2,
-    title: "GVK Bucks☕🔄",
+    title: "GVK Bucks",
     imageName: "starbucks-clone.png",
     content: "Clone made on Starbucks with 10 new features including dynamic text, dynamic images changing, completely responsive, etc.",
     tags: ["React", "MongoDB", "Express", "Node JS"],
     link: "https://gvk-bucks.vercel.app/",
-  },{
+  }, {
     id: 7,
-    title: "E-commerce Dynamo🛒💡",
+    title: "E-commerce Dynamo",
     imageName: "ecommerce-dynamo.png",
     content: "An E-commerce website that immerses users in a world of real site with users adding and removing products from cart, real-time complete analytics from the admin dashboard with complete minute analytics.",
     tags: ["React", "MongoDB", "Express", "Node JS"],
@@ -96,9 +94,9 @@ export const projects = [
     content: "schedules the tasks , user can mark them as complete completed and time will be tracked exactly.",
     tags: ["React", "MongoDB", "Express", "Node JS"],
     link: "https://www.linkedin.com/posts/venkatakousik_connections-oasisinfobyte-internship-activity-7055560702698143744-7WS8?utm_source=share&utm_medium=member_desktop",
-  },  {
+  }, {
     id: 5,
-    title: "Startup Event🚀📅",
+    title: "Startup Event",
     imageName: "startup-event.png",
     content: "A website made for a startup event that contains A to Z details of everyone organizing the event and to register for the event.",
     tags: ["React", "MongoDB", "Express", "Node JS"],
@@ -106,7 +104,7 @@ export const projects = [
   },
   {
     id: 10,
-    title: "Customer Data📊👤",
+    title: "Customer Data",
     imageName: "customer-data.jpg",
     content: "PERN based website that retrieves customer records and creating pagination providing records based on specific search, sorting the data.",
     tags: ["PostgreSQL", "Express", "React", "Node JS"],

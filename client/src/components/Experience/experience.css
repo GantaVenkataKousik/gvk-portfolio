@@ -1,0 +1,103 @@
+.container-experiences {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.experience img {
+  width: 28vw;
+  height: 20vh;
+  border-radius: 1rem;
+}
+
+.experience {
+  width: 60vw;
+  display: flex;
+  margin: 2vh 0;
+  font-size: 1.2rem;
+  background: #5779d7;
+  border-radius: 20px;
+  padding: 1rem;
+  transition: 0.5s;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.experience .title span {
+  font-size: 1.20rem;
+  margin-bottom: 1vh;
+  font-weight: bolder;
+}
+
+.experience .title .arrow {
+  transform: rotate(45deg);
+
+  transition: 0.5s;
+  color: #fff;
+}
+
+
+
+.experience .info,
+.image {
+  margin: 0 1vw;
+}
+
+.experience .info {
+  width: 40vw;
+}
+
+.experience .info .tags {
+  margin-top: 1vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+  font-size: 0.5rem;
+  margin-left: -0.5vw;
+}
+
+.experience .info .tags li {
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  background: #435daa;
+  border-radius: 1rem;
+  margin: 0.4vh 0.4vw;
+  transition: 0.5s;
+}
+
+.experience {
+  z-index: 10000;
+}
+
+.experience .content {
+  text-align: left;
+}
+
+.experience:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 20px #5779d7;
+  transition: 0.5s;
+}
+
+.experience:hover {
+  width: 70vw;
+  height: 30vh;
+  transition: 0.5s;
+}
+
+.experience:hover .image img {
+  width: 33vw;
+  height: 25vh;
+  transition: 0.5s;
+}
+
+.experience:hover .info {
+  width: 45vw;
+  transition: 0.5s;
+}
+
+.experience .title span {
+  font-size: 1.7rem;
+}

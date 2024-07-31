@@ -1,17 +1,17 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import  Home  from './Home/Home.jsx';
-import  About  from './About/About.jsx';
-import  Skills  from './Skills/Skills.jsx';
-import  Projects  from './Projects/Projects.jsx';
-import  Achievements  from './Achievements/Achievements.jsx';
-import  Contact  from './Contact/Contact.jsx';
-
+import Home from './Home/Home.jsx';
+import About from './About/About.jsx';
+import Skills from './Skills/Skills.jsx';
+import Projects from './Projects/Projects.jsx';
+import Achievements from './Achievements/Achievements.jsx';
+import Contact from './Contact/Contact.jsx';
+import Experiences from './Experience/Experiences.jsx'
 
 export default function Main() {
-    
+
     return (
-        <> 
+        <>
             <main className='main'>
                 <Element name="home">
                     <Home />
@@ -21,6 +21,9 @@ export default function Main() {
                 </Element>
                 <Element name="skills">
                     <Skills />
+                </Element>
+                <Element name="experiences">
+                    <Experiences />
                 </Element>
                 <Element name="projects">
                     <Projects />
