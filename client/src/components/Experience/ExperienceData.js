@@ -30,7 +30,7 @@ export const experiences = [
     imageName: "food_delivery.jpg",
     content: "Developed a highly intuitive food delivery application, focusing on user-centric design and seamless functionality to enhance user satisfaction",
     tags: ["React", "MongoDB", "Express", "Node JS"],
-    link: "https://www.linkedin.com/posts/gantavenkatakousik_uiux-uidesign-appdesign-activity-7198892221234880512-Yytm?utm_source=share&utm_medium=member_desktop",
+    link: "httsps://www.linkedin.com/posts/gantavenkatakousik_uiux-uidesign-appdesign-activity-7198892221234880512-Yytm?utm_source=share&utm_medium=member_desktop",
   },
   {
     id: 7,
