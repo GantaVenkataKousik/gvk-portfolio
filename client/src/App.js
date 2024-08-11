@@ -5,13 +5,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import Admin from "./pages/Admin.jsx";
 import { Routes, Route } from "react-router-dom";
 function App() {
-
-
-
   return (
     <>
       <Routes>
-
         <Route path="/" element={<GVKPortfolio />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>

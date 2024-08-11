@@ -1,35 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ErrorBoundary extends Component {
+class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { hasError: false, error: null, errorInfo: null };
+    this.state = { hasError: false };
   }
 
   static getDerivedStateFromError(error) {
-    return { hasError: true, error };
+    // Update state so the next render shows the fallback UI
+    return { hasError: true };
   }
 
   componentDidCatch(error, errorInfo) {
-    console.error('Error caught by error boundary:', error, errorInfo);
-    this.setState({ errorInfo });
+    // You can also log the error to an error reporting service
+    console.error('Error caught by ErrorBoundary:', error, errorInfo);
   }
 
   render() {
     if (this.state.hasError) {
-      // Render fallback UI with error details
-      return (
-        <div>
-          <h1>Something went wrong.</h1>
-          <p>{this.state.error && this.state.error.toString()}</p>
-          <details style={{ whiteSpace: 'pre-wrap' }}>
-            {this.state.errorInfo && this.state.errorInfo.componentStack}
-          </details>
-        </div>
-      );
+      // You can render any custom fallback UI
+      return <h1>Something went wrong.</h1>;
     }
 
-    // Render children components when there's no error
     return this.props.children;
   }
 }
